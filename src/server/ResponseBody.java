@@ -28,7 +28,7 @@ public class ResponseBody {
 
     public String toString(){
         return "<html>" +
-                "<head></head>" +
+                "<head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /></head>" +
                 "<title>"+title+"</title>" +
                 "<body>" +
                 context +
